@@ -1,0 +1,413 @@
+Clase 4 Nuevas tecnologías -Comandos de git bash
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ git --version
+git version 2.46.0.windows.1
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd Nuevas_Tecnologias
+bash: cd: Nuevas_Tecnologias: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd ME
+bash: cd: ME: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd Escritorio
+bash: cd: Escritorio: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd dirEscritorio
+bash: cd: dirEscritorio: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd dirME
+bash: cd: dirME: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd dirme
+bash: cd: dirme: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd dir me
+bash: cd: too many arguments
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ dir
+AppData
+Configuración\ local
+Contacts
+Cookies
+Datos\ de\ programa
+Desktop
+Documents
+Downloads
+Entorno\ de\ red
+Favorites
+IdeaProjects
+Impresoras
+Links
+Menú\ Inicio
+Mis\ documentos
+Music
+NTUSER.DAT
+NTUSER.DAT{6bf8f8e3-f195-11ef-8e3c-8c66cf03390f}.TM.blf
+NTUSER.DAT{6bf8f8e3-f195-11ef-8e3c-8c66cf03390f}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{6bf8f8e3-f195-11ef-8e3c-8c66cf03390f}.TMContainer00000000000000000002.regtrans-ms
+OneDrive
+Pictures
+Plantillas
+Reciente
+Saved\ Games
+Searches
+SendTo
+Videos
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~
+$ cd desktop
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop
+$ dir
+ME                                        Office.16.0.17126.20126.64Bit.iso
+Microsoft\ Edge.lnk                       Visual\ Studio\ Code.lnk
+Microsoft\ Teams\ (work\ or\ school).lnk  desktop.ini
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop
+$ cd me
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me
+$ dir
+BellasArtes  Documentos\ Importantes  Empleos  Study
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me
+$ cd study
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study
+$ dir
+Aprender\ latin.txt  Software_developer_Cesde
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study
+$ cd Software_developer_Cesde
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde
+$ dir
+Autonomo                                                  Third\ semestre
+Certificado.pdf                                           second_semestre
+Pago\ matricula\ 2025-1\ YuliethPaulinaGuzmanTejada.jpeg
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde
+$ cd Third semestre
+bash: cd: too many arguments
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde
+$ cd third\ semestre
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre
+$ dir
+Frontend_II  Nuevas_Tecnologias
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre
+$ cd Nuevas_Tecnologias
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias
+$ mkdir class4
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias
+$ cd class4
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/class4
+$ cd Nuevas_Tecnologias
+bash: cd: Nuevas_Tecnologias: No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/class4
+$ ls Nuevas_Tecnologias
+ls: cannot access 'Nuevas_Tecnologias': No such file or directory
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/class4
+$ cd..
+bash: cd..: command not found
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/class4
+$ cd ..
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias
+$ mkdir github
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias
+$ cd github
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github
+$ git init
+Initialized empty Git repository in C:/Users/USUARIO/Desktop/ME/Study/Software_developer_Cesde/Third semestre/Nuevas_Tecnologias/github/.git/
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ touch functions.py
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ ls
+functions.py
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ code .
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        functions.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ git add .
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   functions.py
+
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ git commit -m "us-001/create_register  firts commit"
+[master (root-commit) d8e15e5] us-001/create_register  firts commit
+ 1 file changed, 24 insertions(+)
+ create mode 100644 functions.py
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (master)
+$ git branch -M develop
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git branch
+* develop
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git branch -M main
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git branch
+* main
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git log --oneline
+d8e15e5 (HEAD -> main) us-001/create_register  firts commit
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout develop
+error: pathspec 'develop' did not match any file(s) known to git
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git branch
+* main
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout develop
+error: pathspec 'develop' did not match any file(s) known to git
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout develop
+error: pathspec 'develop' did not match any file(s) known to git
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git log --oneline
+d8e15e5 (HEAD -> main) us-001/create_register  firts commit
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git branch developo
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git branch
+  developo
+* main
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout developo
+Switched to branch 'developo'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (developo)
+$ git branch -M develop
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git branch feat/us-001
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git branch
+* develop
+  feat/us-001
+  main
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git checkout -b feat/us-002
+Switched to a new branch 'feat/us-002'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-002)
+$ git status
+On branch feat/us-002
+nothing to commit, working tree clean
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-002)
+$ git checkout feat/us-001
+Switched to branch 'feat/us-001'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-001)
+$ git remote
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-001)
+$ git remote add origin https://github.com/PaulinaG2405/new_tecnologies.git
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-001)
+$ git status
+On branch feat/us-001
+nothing to commit, working tree clean
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-001)
+$ git checkout main
+Switched to branch 'main'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout feat/us-001
+Switched to branch 'feat/us-001'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-001)
+$ git push -u origin feat/us-001
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 447 bytes | 447.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/PaulinaG2405/new_tecnologies.git
+ * [new branch]      feat/us-001 -> feat/us-001
+branch 'feat/us-001' set up to track 'origin/feat/us-001'.
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (feat/us-001)
+$ git checkout main
+Switched to branch 'main'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout develop
+Switched to branch 'develop'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git push -u origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/PaulinaG2405/new_tecnologies/pull/new/develop
+remote:
+To https://github.com/PaulinaG2405/new_tecnologies.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git checkout main
+Switched to branch 'main'
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   functions.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git add functions-py
+fatal: pathspec 'functions-py' did not match any files
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   functions.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git add functions.py
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   functions.py
+
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git commit -m "us-002 create_login login"
+[main 0b7f641] us-002 create_login login
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git push -u origin main
+fatal: unable to access 'https://github.com/PaulinaG2405/new_tecnologies.git/': Could not resolve host: github.com
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/PaulinaG2405/new_tecnologies/pull/new/main
+remote:
+To https://github.com/PaulinaG2405/new_tecnologies.git
+ * [new branch]      main -> main
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (main)
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git pull
+Already up to date.
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git pull origin main
+From https://github.com/PaulinaG2405/new_tecnologies
+ * branch            main       -> FETCH_HEAD
+Updating d8e15e5..0b7f641
+Fast-forward
+ functions.py | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git status
+On branch develop
+Your branch is ahead of 'origin/develop' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
+$ git push origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/PaulinaG2405/new_tecnologies.git
+   d8e15e5..0b7f641  develop -> develop
+
+USUARIO@DESKTOP-2HES85C MINGW64 ~/desktop/me/study/Software_developer_Cesde/third semestre/Nuevas_Tecnologias/github (develop)
